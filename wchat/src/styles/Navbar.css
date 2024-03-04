@@ -1,0 +1,27 @@
+.navbar {
+  position: absolute;
+  top: 0.2rem;
+  left: 5%;
+  width: 80%;
+  height: 2%;
+}
+
+.nav-elem {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.nav-elem > li {
+  margin: 1rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-elem > li > a {
+  text-decoration: none;
+}
+
+.active {
+  color: aliceblue;
+}
